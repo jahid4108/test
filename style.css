@@ -1,0 +1,92 @@
+.price-all{
+	width:200px;
+	height:300px;
+	background:silver;
+	margin:0 auto;
+	position:relative;
+	
+}
+.price-all:hover .priceing:after{
+	background:white;
+	transition:1s;
+	color:black;
+}
+.priceing:after {
+    content: "This is best";
+    position: absolute;
+    /* width: 200px; */
+    color: white;
+	transition:1s;
+    top: 69px;
+    /* height: 50px; */
+    background: red;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 44px 13px 42px;
+
+}
+.priceing:before {
+    content: "Best";
+    position: absolute;
+    width: 70px;
+    color: white;
+    bottom: 20px;
+    border-radius: 29px;
+    /* top: 0; */
+    left: 41px;
+    height: 32px;
+    background: black;
+    font-size: 25px;
+    text-align: center;
+		transition:1s;
+    padding: 8px 24px;
+}
+
+.priceing:hover:before{
+	background:white;
+	transition:1s;
+	color:black;
+}
+h1 {
+    text-align: center;
+    color: black;
+	padding-top: 10px;
+}
+.many {
+    padding: 53px;
+	text-align: center;
+}
+.pricing li {
+    padding: 20px;
+}
+}
+.many {
+    padding: 48px 58px 0px 59px;
+	position:relative;
+}
+.many:after {
+    position: absolute;
+    content: "";
+    width: 105px;
+    opacity: 0;
+    transform: rotate(44deg);
+    height: 105px;
+    background: white;
+    left: 50px;
+    top: 126px;
+    right: 0;
+	transition:1s;
+    bottom: 0;
+}
+
+.price-all:hover .many:after {
+	 opacity: .3;
+	 transition:1s;
+}
+.many h2 {
+    font-size: 15px;
+    border: 1px solid beige;
+    cursor: pointer;
+}
+
